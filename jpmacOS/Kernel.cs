@@ -6,13 +6,14 @@ namespace jpmacOS
 {
 	public class Kernel : Sys.Kernel
 	{
+		private string copyrightInfo = "jpmacOS v0.0.1 (c) 2016 James Pelster.";
 		private List<TestObject> testList = new List<TestObject>();
 
 		protected override void BeforeRun()
 		{
 			Console.Clear();
 			//Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
-			Console.WriteLine("jpmacOS v0.0.1 (c) 2015 James Pelster.");
+			Console.WriteLine(copyrightInfo);
 			Console.WriteLine("Cosmos kernel loaded.");
 			Console.WriteLine("jpmacOS booted successfully!");
 		}
@@ -65,6 +66,10 @@ namespace jpmacOS
 			{
 				Sys.Power.Reboot();
 				Stop();
+			}
+			else if (input == "about")
+			{
+				Console.WriteLine(copyrightInfo);
 			}
 			else
 			{
