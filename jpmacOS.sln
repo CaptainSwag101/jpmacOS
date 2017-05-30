@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jpmacOS", "jpmacOS.csproj", "{638EFC89-1C61-4639-B437-6DD1C1A99CF8}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "jpmacOSBoot", "jpmacOSBoot.Cosmos", "{8EB2A5AC-1890-4A7D-A9F9-E566BAFE4157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{638EFC89-1C61-4639-B437-6DD1C1A99CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638EFC89-1C61-4639-B437-6DD1C1A99CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638EFC89-1C61-4639-B437-6DD1C1A99CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638EFC89-1C61-4639-B437-6DD1C1A99CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB2A5AC-1890-4A7D-A9F9-E566BAFE4157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB2A5AC-1890-4A7D-A9F9-E566BAFE4157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB2A5AC-1890-4A7D-A9F9-E566BAFE4157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB2A5AC-1890-4A7D-A9F9-E566BAFE4157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

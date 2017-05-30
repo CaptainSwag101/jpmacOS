@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <ProjectGuid>{638efc89-1c61-4639-b437-6dd1c1a99cf8}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jpmacOSBoot.Cosmos" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Cosmos.Debug.Kernel" Version="1.0.0-*" />
+    <PackageReference Include="Cosmos.System" Version="1.0.0-*" />
+  </ItemGroup>
+
+</Project>
